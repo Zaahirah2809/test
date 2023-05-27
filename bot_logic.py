@@ -17,6 +17,9 @@ class MyClient(discord.Client):
        
         if message.content.startswith('$siapa nama mu?'):
             await message.channel.send('aku tidak mempunyai nama!hanya bot!')
+        
+        
+       
         if message.content.startswith('$apakah kamu alien?'):
             await message.channel.send('bip bup bip bip?')
         if message.content.startswith('$hello'):
