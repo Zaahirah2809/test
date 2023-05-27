@@ -4,7 +4,7 @@ meme_dict ={
             "ROFL": "tanggapan terhadap lelucon",
             "SHEESH":"sedikit ketidaksetujuan",
             "CREEPY" :"menakutkan, tidak menyenangkan",
-            "AGGRO" :"untuk menjadi agresif/marah",
+            
             }
 for i in range(5):
     word = input("Ketik bahasa gaul yang ingin kamu ketahui!(gunakan huruf kapital semua!): ")
