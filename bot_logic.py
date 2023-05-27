@@ -14,6 +14,10 @@ class MyClient(discord.Client):
         # we do not want the bot to reply to itself
         if message.author.id == self.user.id:
             return
+        if message.content.startswith('$siapa nama mu?'):
+            await message.channel.send('aku tidak mempunyai nama!hanya bot!')
+        if message.content.startswith('$apakah kamu alien?'):
+            await message.channel.send('bip bup bip bip?')
         if message.content.startswith('$hello'):
             await message.channel.send('saya!saya bot!')
         elif message.content.startswith('$guess'):
